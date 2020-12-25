@@ -2,13 +2,13 @@ import Styled from 'styled-components'
 
 export const CreativeSection = Styled.section `
     height: 500px;
-    background: url('images/about-bg.jpg');
+    background: url('https://i.ibb.co/mvGQxZm/about-bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     @media (max-width:991px) {
-        height: auto
-    }
+        height: auto;
+    };
 `
 
 export const CreativeInfo = Styled.div `
@@ -18,8 +18,8 @@ export const CreativeInfo = Styled.div `
     @media(max-width: 991 px) {
         width: 100 % ;
         padding-top: 10 px;
-        float: none
-    }
+        float: none;
+    };
 
 `
 

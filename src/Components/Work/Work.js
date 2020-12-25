@@ -9,7 +9,7 @@ class Work extends Component {
     }
 
     componentDidMount() {
-        axios.get('js/data.json').then(res => {this.setState({
+        axios.get('https://next.json-generator.com/api/json/get/E1hM9r1Tt').then(res => {this.setState({
             works: res.data.works
         })})
     }

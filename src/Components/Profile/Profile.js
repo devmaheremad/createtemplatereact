@@ -8,8 +8,8 @@ const Profile = () => {
     const [skills, setSkills] = useState([])
 
     useEffect (() => {
-        axios.get('js/data.json').then(res => {setProfile(res.data.profileskill.profile)})
-        axios.get('js/data.json').then(res => {setSkills(res.data.profileskill.skills)})
+        axios.get('https://next.json-generator.com/api/json/get/E1hM9r1Tt').then(res => {setProfile(res.data.profileskill.profile)})
+        axios.get('https://next.json-generator.com/api/json/get/E1hM9r1Tt').then(res => {setSkills(res.data.profileskill.skills)})
     }, [])
 
     let profileListItem = profile.map((info, index) => {

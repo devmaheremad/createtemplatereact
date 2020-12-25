@@ -7,7 +7,7 @@ const Social = () => {
     const [ social, setSocial ] = useState([])
 
     useEffect (() => {
-        axios.get('../../../public/js/data.json').then(res => {setSocial(res.data.social)})
+        axios.get('https://next.json-generator.com/api/json/get/E1hM9r1Tt').then(res => {setSocial(res.data.social)})
     }, [])
 
     const socialPart = social.map((socailItem, index) => {

@@ -3,7 +3,7 @@ import Styled from 'styled-components'
 export const Section = Styled.section `
     padding: 50px 0;
     text-align: center;
-    background: url('images/contact-bg.jpg');
+    background: url('https://i.ibb.co/v30vfpV/contact-bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

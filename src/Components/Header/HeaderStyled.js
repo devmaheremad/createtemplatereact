@@ -2,7 +2,7 @@ import Styled from 'styled-components'
 
 export const HomeSection = Styled.section `
     height: 500px;
-    background: url('images/home-bg.jpg');
+    background: url('https://i.ibb.co/6bcxz26/home-bg.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -13,7 +13,7 @@ export const HomeInformation = Styled.section `
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 `
 
 export const HomeTitle = Styled.h2 `
@@ -26,7 +26,7 @@ export const HomeTitle = Styled.h2 `
     };
     @media (max-width:575px) {
         font-size: 30px;
-    }
+    };
 `
 
 export const HomeInfo = Styled.h4 `
@@ -34,8 +34,8 @@ export const HomeInfo = Styled.h4 `
     color: #eb5424;
     margin-bottom: 20px;
     @media (max-width:768px) {
-        font-size: 20px
-    }
+        font-size: 20px;
+    };
 `
 
 export const HomeDesc = Styled.p `
@@ -44,12 +44,12 @@ export const HomeDesc = Styled.p `
     color: #888;
     margin-bottom: 20px;
     @media (max-width:768px) {
-        font-size: 15px
-    }
+        font-size: 15px;
+    };
 `
 
 export const Span = Styled.span `
-    color: #000
+    color: #000;
 `
 
 export const HomeBtn = Styled.button `
@@ -65,5 +65,5 @@ export const HomeBtn = Styled.button `
     &:hover {
         background: #fff0;
         color: #eb5424
-    }
+    };
 `
