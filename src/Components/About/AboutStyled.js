@@ -8,6 +8,7 @@ export const CreativeSection = Styled.section `
     background-attachment: fixed;
     @media (max-width:991px) {
         height: auto;
+        padding: 2%;
     };
 `
 
@@ -15,12 +16,11 @@ export const CreativeInfo = Styled.div `
     padding-top: 100px;
     width: 50%;
     float: right;
-    @media(max-width: 991 px) {
-        width: 100 % ;
-        padding-top: 10 px;
+    @media(max-width: 991px) {
+        width: 100% ;
+        padding-top: 10px;
         float: none;
     };
-
 `
 
 export const CreativeInfoTitle = Styled.h2 `
@@ -47,6 +47,9 @@ export const CreativeInfoDesc = Styled.p `
     color: #000;
     margin-bottom: 15px;
     line-height: 1.8;
+    @media (max-width:991px) {
+        margin-bottom: 0;
+    };
 `
 
 export const CreativeInfoDirLink = Styled.a `
