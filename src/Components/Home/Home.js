@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Nav from '../Nav/Nav'
 import Header from './../Header/Header'
 import Work from './../Work/Work'
 import Portfolio from './../Portfolio/Portfolio'
@@ -10,6 +11,7 @@ import Footer from './../Footer/Footer'
 const Home = () => {
     return (
         <Fragment>
+            <Nav />
             <Header />
             <Work />
             <Portfolio />

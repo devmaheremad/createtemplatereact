@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react'
 import { Form, FormInput, Section, Span, Title, FormInputInsideText, FormInputInsideEmail, InputSub, TextArea, InputSubmit } from './ContactStyled'
 import Footer from '../Footer/Footer'
+import Nav from '../Nav/Nav'
 
 const Contact = () => {
     return (
         <Fragment>
+            <Nav />
             <Section>
             <div className="container">
                 <Title><Span>Drop </Span>Me A line</Title>
